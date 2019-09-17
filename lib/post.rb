@@ -13,14 +13,6 @@ class Post
     @@all
   end
 
-  # def title
-  #   @title
-  # end
-
-  # def author
-  #   @author
-  # end
-
   def author_name
     @author.name if @author
   end
